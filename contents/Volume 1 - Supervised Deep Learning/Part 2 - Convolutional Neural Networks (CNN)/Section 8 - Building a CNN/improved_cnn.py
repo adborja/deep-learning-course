@@ -77,7 +77,7 @@ def main():
 
     # saving model
     script_dir = os.path.dirname(__file__)
-    model_backup_path = os.path.join(script_dir, '../dataset/cat_or_dogs_model.h5')
+    model_backup_path = os.path.join(script_dir, 'cat_or_dogs_model.h5')
     model.save(model_backup_path)
     print("Model saved to", model_backup_path)
 
