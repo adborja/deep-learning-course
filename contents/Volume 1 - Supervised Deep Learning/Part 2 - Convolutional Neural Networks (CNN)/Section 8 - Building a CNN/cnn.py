@@ -76,4 +76,4 @@ test_image = image.load_img('dataset/single_prediction/cat_or_dog_1.jpg', target
 test_image = image.img_to_array(test_image)
 test_image = np.expand_dims(test_image, axis=0)
 
-classifier.predict()
+
